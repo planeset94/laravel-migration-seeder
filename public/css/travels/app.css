@@ -8,6 +8,35 @@ p {
   margin-bottom: 0;
 }
 
+#site-header h3 {
+  padding-top: 4rem;
+}
+
+#site-header ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  width: 50%;
+  margin: 0 auto;
+  padding: 4rem 0 2rem;
+}
+
+#site-header ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#site-header ul li i {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+#site-header ul li a {
+  text-decoration: none;
+  color: black;
+}
+
 .card {
   border: 1px solid #0000001a;
   margin: 2rem 0;

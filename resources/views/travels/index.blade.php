@@ -11,7 +11,7 @@
 
 @section('content')
     <div class="container">
-        <h3 class="title text-center">Le nostre migliori proposte</h3>
+
         <div class="row">
             @foreach ($plans as $plan)
                 <div class="col-4">
