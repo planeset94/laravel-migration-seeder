@@ -1,6 +1,6 @@
 <?php
-
 use Illuminate\Support\Facades\Route;
+use App\Plan;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'PlanController@index')->name('travels.index');
+// Route::get('/', function(){
+//     $plans=Plan::all();
+//     return view('travels.index', compact('plans')); 
+// })->name('travels.index');

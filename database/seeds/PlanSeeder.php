@@ -16,7 +16,7 @@ class PlanSeeder extends Seeder
         for ($i=0; $i <30 ; $i++) { 
             $plan=new Plan();
             $plan->location=$faker->city();
-            $plan->image=$faker->imageUrl(640, 480, 'cities', true);
+            $plan->image=$faker->imageUrl(640, 480, 'city', true);
             $plan->departure_date=$faker->date($format = 'Y-m-d', $min = 'now');
             $plan->arrival_date=$faker->date($format = 'Y-m-d', $min = 'now');
             $plan->departure_location=$faker->city();
