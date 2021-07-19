@@ -18,9 +18,8 @@ class CreatePlansTable extends Migration
             $table->string('location', 40)->nullable(false);
             $table->string('image', 200)->nullable(false);
             $table->date('departure_date')->nullable(false);
-            $table->date('arrival_date')->nullable(false);
             $table->string('departure_location', 30);
-            $table->string('arrival_location', 30);
+            $table->smallinteger('duration');
             $table->string('room', 30);
             $table->string('package', 200);
             $table->float('price', 8,2)->nullable(false);
