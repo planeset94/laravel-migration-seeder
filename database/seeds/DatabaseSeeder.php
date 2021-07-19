@@ -1,5 +1,5 @@
 <?php
-use App\Plans;
+use App\Plan;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
